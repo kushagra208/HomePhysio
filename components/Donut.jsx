@@ -1,6 +1,6 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
-import Svg, { G, Circle } from "react-native-svg";
+import Svg, { G, Circle } from "react-native-svg"
 
 const Donut = ({spentAmount, color}) => {
   const radius = 50;

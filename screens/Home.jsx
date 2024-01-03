@@ -9,9 +9,6 @@ import { TouchableOpacity } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 
 const Home = () => {
-    const exercise = [{name: "Knee Pain" , image: KneeIcon},
-    {name: "Back Pain" , image: BackIcon},
-    {name: "Neck Pain" , image: NeckIcon} ]
     const navigation = useNavigation();
   return (
     <View style = {{ backgroundColor: "#fff" , flex: 1 , paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0, alignItems: 'center' }}>
